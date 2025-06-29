@@ -77,6 +77,17 @@ body {
     color: #fff;
     position: relative;
 }
+
+.clients-section {
+    background-image: url('images/backgrounds/clients-bg.jpg'); /* Replace with your actual background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 20px;
+    position: relative;
+    color: #fff;
+}
+
 .darkback{
     color: #333;
 }
