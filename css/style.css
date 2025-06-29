@@ -49,6 +49,38 @@ body {
     overflow-x: hidden;
 }
 
+/*MY ADDONs*/
+
+.introduction.scrollto {
+  background-image: url('../images/banner-images/banner2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px 20px;
+  color: white;
+}
+.testimonial-section {
+    background-image: url('../images/banner-images/banner3.png'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 20px;
+    color: #fff;
+    position: relative;
+}
+.process-section {
+    background-image: url('../images/banner-images/banner4.png'); /* Replace with your actual image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 20px;
+    color: #fff;
+    position: relative;
+}
+.darkback{
+    color: #333;
+}
+
 p {
     line-height: 25px;
 }
@@ -515,7 +547,7 @@ section {
 
 #header.nav-solid nav a {
     border-bottom: 3px solid;
-    border-color: #fff;
+    border-color: #c44242;
     -webkit-transition: all 0.3s ease-out;
     -moz-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;

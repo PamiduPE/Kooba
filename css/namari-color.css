@@ -22,27 +22,27 @@ body {
 /* Default Link Color */
 
 a, .la-ball-triangle-path {
-    color:#d2b356;
+    color:#ffa04f;
 }
 
 a:hover, #header.nav-solid nav a:hover {
-    color:#d2b356;
+    color:#ffa04f;
 }
 
 /* Default Icon Color */
 
 .icon i {
-    color:#18cf21;
+    color:#ffa04f;
 }
 
 /* Border Color */
 
 #banner .section-heading:before, .testimonial.classic footer:before {
-    background: #1fb61f;
+    background: #ffa04f;
 }
 
 .pricing-block-content:hover {
-    border-color:#1fb61f;
+    border-color:#ffa04f;
 }
 
 
@@ -68,8 +68,8 @@ a:hover, #header.nav-solid nav a:hover {
 /* Navigation Active State */
 
 #header.nav-solid .active {
-    color: #1fb61f;
-    border-color: #1fb61f;
+    color: #ffa04f;
+    border-color: #ffa04f;
 }    
 
 
@@ -82,7 +82,7 @@ a:hover, #header.nav-solid nav a:hover {
 /* Primary Background and Text Colors */
 
 .primary-color, .featured .pricing {
-    background-color:#1fb61f;
+    background-color:#ffa04f;
 }
 
 .primary-color, .primary-color .section-title, .primary-color .section-subtitle, .featured .pricing, .featured .pricing p {
@@ -90,7 +90,7 @@ a:hover, #header.nav-solid nav a:hover {
 }
 
 .section-heading h2:after {
-    background:#1fb61f;
+    background:#ffa04f;
     content:"";
     display:block;
     width:30px;
@@ -167,7 +167,7 @@ body {
     font-size:62px;
     line-height:60px;
     font-weight:800;
-    color:#1fb61f;
+    color:#ffa04f;
 }
 
 #banner h2 {
@@ -191,7 +191,7 @@ body {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
     font-size: 16px;
     font-weight:300;
-    color:#9c9c9c;
+    color:#333333;
 }
 
 /* Testimonial */
@@ -279,8 +279,8 @@ h6 {
 /* Button Hover Color */
 
 .button:hover,  input[type="submit"]:hover {
-    border-color:#1fb61f;
-    color:#1fb61f;
+    border-color:#ffa04f;
+    color:#ffa04f;
 }
 
 
@@ -306,8 +306,8 @@ h6 {
 /* Button Hover Color */
 
 #banner .button:hover {
-    color:#1fb61f;
-    border-color:#1fb61f;
+    color:#ffa04f;
+    border-color:#ffa04f;
 }
 
 
