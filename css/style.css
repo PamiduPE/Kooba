@@ -92,6 +92,75 @@ body {
     color: #333;
 }
 
+.getbtn {
+  position: relative;
+  padding: 18px 40px;
+  margin-top: 30px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(135deg, #ff6a00, #ffa600);
+  background-size: 300% 300%;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+  animation: bgShift 6s ease infinite, pulseGlow 2s infinite;
+  box-shadow:
+    0 0 8px rgba(255, 94, 0, 0.5),
+    0 0 16px rgba(255, 135, 0, 0.4);
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease;
+}
+
+/* Shine effect */
+.getbtn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -80%;
+  width: 60%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0)
+  );
+  transform: skewX(-20deg);
+  animation: lightSweep 3s ease-in-out infinite;
+  z-index: 2;
+}
+
+.getbtn:hover {
+  transform: scale(1.06);
+}
+
+@keyframes bgShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes lightSweep {
+  0% { left: -80%; }
+  100% { left: 130%; }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow:
+      0 0 8px rgba(255, 94, 0, 0.5),
+      0 0 16px rgba(255, 135, 0, 0.4);
+  }
+  50% {
+    box-shadow:
+      0 0 16px rgba(255, 94, 0, 0.8),
+      0 0 32px rgba(255, 135, 0, 0.6);
+  }
+}
+
 p {
     line-height: 25px;
 }
